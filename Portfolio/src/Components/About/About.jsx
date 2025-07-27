@@ -1,6 +1,4 @@
 import React from "react";
-import { DiJavascript } from "react-icons/di";
-import { FaReact } from "react-icons/fa";
 export default function About() {
   return (
     <>
