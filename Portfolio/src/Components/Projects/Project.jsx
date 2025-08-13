@@ -1,5 +1,8 @@
 import React from "react";
 import Brain from "../../../public/Images/Brain.jpg";
+import Todo from "../../../public/Images/Todo.png";
+import Praise from "../../../public/Images/Praise.png";
+
 import { Link } from "react-router-dom";
 
 export default function Project() {
@@ -7,7 +10,7 @@ export default function Project() {
     {
       title: "E Commerce | Praise Pharma",
       desc: "Developed a fully responsive React-based website for a pharmacy company to showcase medicines categorized by type.",
-      img: "https://via.placeholder.com/300x200",
+      img: Praise,
       color: "bg-pink-500",
       live: "https://praise-pharma.vercel.app/",
       github: "https://github.com/HarshiitaaRajoriiaa/Personal_Dashboard",
@@ -26,7 +29,7 @@ export default function Project() {
     {
       title: "Personal Productivity Dashboard",
       desc: "Developed a secure RESTful To-Do List API with user authentication, CRUD operations, and MongoDB persistence.",
-      img: "https://via.placeholder.com/300x200",
+      img: Todo,
       color: "bg-indigo-500",
       live: "https://personal-dashboard.vercel.app/",
       github: "https://github.com/HarshiitaaRajoriiaa/Personal_Dashboard",
