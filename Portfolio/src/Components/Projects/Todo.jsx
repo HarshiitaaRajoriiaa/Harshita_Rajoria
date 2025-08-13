@@ -14,7 +14,7 @@ export default function Todo() {
       {/* Hero */}
       <header className="px-6 lg:px-10 pt-14 pb-6 border-b border-white/10">
         <div className="max-w-6xl mx-auto">
-          <p className="inline-block text-xs tracking-wider uppercase bg-teal-600/20 text-teal-300 px-3 py-1 rounded-full">
+          <p className="inline-block text-xs tracking-wider uppercase bg-teal-600/20 text-teal-300 px-3 py-2 my-10 rounded-full">
             Project
           </p>
           <h1 className="mt-4 text-3xl md:text-5xl font-extrabold">

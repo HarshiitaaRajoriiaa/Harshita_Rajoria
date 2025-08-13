@@ -16,7 +16,7 @@ export default function Praise() {
       {/* Hero */}
       <header className="px-6 lg:px-10 pt-14 pb-6 border-b border-white/10">
         <div className="max-w-6xl mx-auto">
-          <p className="inline-block text-xs tracking-wider uppercase bg-pink-600/20 text-pink-300 px-3 py-1 rounded-full">
+          <p className="inline-block text-xs tracking-wider uppercase bg-pink-600/20 text-pink-300 px-3 py-2 my-10 rounded-full">
             E-Commerce Website
           </p>
           <h1 className="mt-4 text-3xl md:text-5xl font-extrabold">
