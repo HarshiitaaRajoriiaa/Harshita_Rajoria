@@ -44,19 +44,19 @@ export default function Skills() {
   ];
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-black via-[#0b0b15] to-black text-white px-10 py-16">
+    <section className="min-h-screen bg-gradient-to-br from-black via-[#0b0b15] to-black text-white px-6 sm:px-10 py-16">
       {/* Heading */}
       <h2 className="text-4xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-indigo-400 to-blue-400">
         My Skills
       </h2>
 
-      <div className="flex flex-row justify-evenly ">
+      <div className="flex flex-col lg:flex-row gap-10">
         {/* Technical Skills */}
-        <div className="mb-16 border rounded-2xl p-4 shadow-xl border-stone-700">
+        <div className="flex-1 border rounded-2xl p-6 shadow-xl border-stone-700">
           <h3 className="text-2xl font-bold mb-8 text-center text-teal-300">
             Technical & Tools
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto ">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {techSkills.map((skill, index) => (
               <div
                 key={index}
@@ -72,11 +72,11 @@ export default function Skills() {
         </div>
 
         {/* Core Subjects */}
-        <div className=" border rounded-2xl p-4 shadow-xl border-stone-700 h-fit">
-          <h3 className="text-2xl font-bold text-center text-pink-300 mb-10">
+        <div className="flex-1 border rounded-2xl p-6 shadow-xl border-stone-700">
+          <h3 className="text-2xl font-bold text-center text-pink-300 mb-8">
             Core Computer Science Subjects
           </h3>
-          <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {coreSubjects.map((subject, index) => (
               <div
                 key={index}

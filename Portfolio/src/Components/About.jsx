@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-[#0b0b15] to-black text-white px-6 lg:px-10 py-14">
+    <div className="min-h-screen bg-gradient-to-br from-black via-[#0b0b15] to-black text-white px-6 lg:px-10 py-14">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-10">
