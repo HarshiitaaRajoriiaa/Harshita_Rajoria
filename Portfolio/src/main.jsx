@@ -11,7 +11,7 @@ import Praise from "./Components/Projects/Praise";
 import Layout from "./Layout";
 import Brain from "./Components/Projects/Brain";
 import Todo from "./Components/Projects/Todo";
-import Project from "./Components/Projects/Project";
+import Project from "./Components/Projects/Project"; 
 import HomePage from "./Components/HomePage";
 import About from "./Components/About";
 import Contact from "./Components/Contact";

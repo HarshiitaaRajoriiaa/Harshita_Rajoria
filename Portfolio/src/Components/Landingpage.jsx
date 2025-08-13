@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 export default function LandingPage() {
   return (
     <section className="h-screen w-full flex flex-col justify-center items-center bg-gradient-to-br from-black via-[#0b0b15] to-black text-center px-6 relative overflow-hidden">
@@ -25,13 +26,16 @@ export default function LandingPage() {
       {/* Buttons */}
       <div className="flex flex-wrap gap-4 z-10">
         <a
-          href="/Resume.pdf"
+          href="https://drive.google.com/file/d/1H6lH0n6UZjaFZgvMUnuNpgqT1_f2DYBI/view"
+          target="_blank"
+          rel="noopener noreferrer"
           download="Harshita_Rajoria_Resume.pdf"
           className="bg-gradient-to-r from-pink-500 via-indigo-500 to-blue-500 hover:opacity-90 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
         >
           View Resume
         </a>
-        <Link to='/contact'
+        <Link
+          to="/contact"
           className="border border-pink-400 text-pink-300 hover:bg-pink-500/20 font-semibold px-6 py-3 rounded-lg transition"
         >
           Contact Me

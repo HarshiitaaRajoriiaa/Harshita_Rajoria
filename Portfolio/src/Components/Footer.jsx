@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
 
         {/* Right: Social Links */}
-        <div className="flex space-x-4 text-lg">
+        <div className="flex space-x-4 text-2xl">
           <a
             href="https://github.com/HarshiitaaRajoriiaa"
             target="_blank"
@@ -25,13 +25,13 @@ export default function Footer() {
             href="https://www.linkedin.com/in/harshita-rajoria-68110b24a/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
+            className="hover:text-pink-400 transition"
           >
             <FaLinkedin />
           </a>
           <a
             href="mailto:harshitarajoria02@gmail.com"
-            className="hover:text-blue-400 transition"
+            className="hover:text-indigo-400 transition"
           >
             <FaEnvelope />
           </a>

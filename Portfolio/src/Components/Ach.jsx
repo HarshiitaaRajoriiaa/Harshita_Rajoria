@@ -1,6 +1,7 @@
 import React from "react";
 import { FaMedal, FaBookOpen, FaCode } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import LC from "../../public/Images/LC.png";
 
 export default function Achievements() {
   const achievements = [
@@ -16,7 +17,7 @@ export default function Achievements() {
       title: "LeetCode 50 Days Badge",
       description:
         "Earned the LeetCode 50 Days Badge by consistently solving problems for 50 consecutive days, strengthening problem-solving skills.",
-      icon: <SiLeetcode className="text-yellow-400 text-5xl" />,
+      icon: <SiLeetcode className="text-blue-400 text-5xl" />,
       link: "https://leetcode.com/u/Harshita100403/", // Replace with your real profile
       color: "border-yellow-500/20 hover:shadow-yellow-500/30",
     },
@@ -24,7 +25,14 @@ export default function Achievements() {
       title: "200+ LeetCode Problems Solved",
       description:
         "Solved over 200 problems on LeetCode, covering a variety of topics including Arrays, Graphs, Dynamic Programming, and more.",
-      icon: <FaCode className="text-indigo-400 text-5xl" />,
+      // icon: <FaCode className="text-indigo-400 text-5xl" />,
+      icon: (
+        <img
+          src={LC}
+          alt="LeetCode Logo"
+          className="w-16 h-16 object-contain"
+        />
+      ),
       link: "https://leetcode.com/u/Harshita100403/", // Replace with your real profile
       color: "border-indigo-500/20 hover:shadow-indigo-500/30",
     },

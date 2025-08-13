@@ -25,7 +25,7 @@ export default function Contact() {
     <div className="min-h-screen bg-gradient-to-b from-black via-[#0b0b15] to-black text-white px-6 lg:px-10 py-14 flex flex-col items-center">
       {/* Heading */}
       <div className="text-center mb-10">
-        <p className="inline-block text-xs tracking-wider uppercase bg-pink-600/20 text-pink-300 px-3 py-1 rounded-full">
+        <p className="inline-block text-xs tracking-wider uppercase bg-pink-600/20 text-pink-300 px-3 py-2 mt-10 rounded-full">
           Get in Touch
         </p>
         <h2 className="mt-4 text-3xl md:text-5xl font-extrabold text-indigo-300">

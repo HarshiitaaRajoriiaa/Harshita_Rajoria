@@ -18,7 +18,6 @@ export default function HomePage() {
       <Ach />
       <Skill />
       <Contact />
-      <Footer />
     </div>
   );
 }
