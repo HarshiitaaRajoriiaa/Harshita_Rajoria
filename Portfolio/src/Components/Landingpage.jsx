@@ -19,7 +19,7 @@ export default function LandingPage() {
       {/* Subtitle */}
       <p className="text-lg sm:text-2xl text-gray-300 mb-8 max-w-2xl z-10">
         A passionate Computer Science student specializing in{" "}
-        <span className="text-teal-300">Full-Stack Development</span> &{" "}
+        {/* <span className="text-teal-300">Full-Stack Development</span> &{" "} */}
         <span className="text-pink-300">Artificial Intelligence</span>.
       </p>
 
