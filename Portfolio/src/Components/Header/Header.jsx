@@ -7,7 +7,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-semibold  tracking-wide drop-shadow-lg">
-          Harshita Rajoria
+          <h1 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-indigo-400 to-blue-400 mb-4 z-10">
+            Harshita Rajoria
+          </h1>
         </div>
 
         {/* Navigation */}

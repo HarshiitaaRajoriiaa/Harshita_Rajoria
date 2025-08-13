@@ -23,7 +23,7 @@ export default function Brain() {
       <header className="px-6 lg:px-10 pt-14 pb-6 border-b border-white/10">
         <div className="max-w-6xl mx-auto">
           <p className="inline-block text-xs tracking-wider uppercase bg-indigo-600/20 text-indigo-300 px-3 py-1 rounded-full">
-            Case Study
+            Research Project
           </p>
           <h1 className="mt-4 text-3xl md:text-5xl font-extrabold">
             Brain Tumor Classification (DL)
